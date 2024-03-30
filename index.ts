@@ -1,8 +1,7 @@
 import inquirer from "inquirer";
 
 //Asking Questions from users through Inquirer
-// const  firstNumber: number = 0;
-// const  secondNumber: number = 0;
+
 let answers = await inquirer.prompt([
     {message: "Enter Your First Number", type: Number, name: `firstNumber`},
     {message: " Enter Your Second Number", type: Number, name: `secondNumber`},
